@@ -1,0 +1,55 @@
+.search-block {
+  background: #1E1E1E;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form button {
+  background: #d6644a;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.form button:hover {
+  background: #343434;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.form input {
+  border: none;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.form-text {
+  color: #fff;
+  margin: 0;
+  line-height: 35px;
+  margin-left: 15px;
+}
+
+.error{
+  background: red;
+  position: absolute;
+  bottom: -25px;
+  margin: 0;
+}
+
+.input-wrapper {
+  position: relative;
+}

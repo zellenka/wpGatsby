@@ -1,0 +1,17 @@
+.footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+
+.footer-block > div {
+  width: 30%;
+}
+
+.heading {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d6644a;
+}
